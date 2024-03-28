@@ -1,6 +1,8 @@
 import { useNavigation } from '@react-navigation/native';
 import { MaterialIcons } from '@expo/vector-icons';
 import { AntDesign } from "@expo/vector-icons";
+import { StyleSheet } from 'react-native';
+import { View, Text,TouchableOpacity } from 'react-native';
 
 
 const Header = ({ title }) => {
@@ -44,7 +46,7 @@ const styles = StyleSheet.create({
   },
   touchable: {
     marginTop: 3,
-    marginRight: 10, // Adjusted margin to create space between icon and title
+    marginRight: 10,
   }
 });
 

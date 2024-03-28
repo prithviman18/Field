@@ -10,7 +10,7 @@ export default function App() {
     <NavigationContainer>
     <View style={styles.container}>
       <Header />
-      <StatusBar style="auto" />
+      {/* <StatusBar style="auto" /> */}
       <Form />
     </View>
     </NavigationContainer>
@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     
   },
-  statusbar:{
-    backgroundColor:"red"
-  }
+  // statusbar:{
+  //   backgroundColor:"red"
+  // }
 });
